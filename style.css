@@ -320,16 +320,6 @@ section[id] {
     flex: 1;
     max-width: 580px;
 }
-
-.hero-tag {
-    display: inline-block;
-    font-size: 13px;
-    color: #168bdb;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
 .hero-content h1 {
     color: #0f172a;
     font-size: 52px;
@@ -549,8 +539,28 @@ section[id] {
 .Contacto-item strong {
     color: #ffffff;
 }
-
+.Numero{
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 22px;
+    border-radius: 12px;
+}
+.Numero span{
+    display: block;
+    color: #54baff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.Numero p{
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 5px 0;
+}
 .Contacto-item .Correo {
+    display: block;
+    grid-column: 1;
     color: #ffffff;
     font-size: 15px;
     text-decoration: none;
@@ -559,11 +569,6 @@ section[id] {
 
 .Contacto-item .Correo:hover {
     color: #54baff;
-}
-
-/* HORARIO A TODO EL ANCHO */
-.Contacto-item:last-child {
-    grid-column: 1 / -1;
 }
 
 /* PIE DE PÁGINA */
